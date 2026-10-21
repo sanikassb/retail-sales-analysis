@@ -47,17 +47,19 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 retail-sales-analysis/
 │
 ├── data/
-│   ├── sales_dataset_raw.csv
-│   └── sales_cleaned.csv
+│   ├── please contact me for the raw sales data csv
 │
 ├── python/
 │   └── data_analysis.ipynb
+|   └── data_analysis_output
+|   └── output.png
 │
 ├── excel/
-│   └── sales_analysis.xlsx
+│   └── Pivot table and Pivot chart for monthly sales.png
+|   └── Pivot table and Pivot chart for product performance.png
+|   └── Pivot table and Pivot chart for regional performance with slicers.png
 │
 ├── powerbi/
-│   ├── sales_data.pbix
 │   └── sales_data_screenshot.png
 │
 └── README.md
@@ -127,6 +129,8 @@ Examples of questions explored:
 ## Data Disclaimer
 
 This project is intended for educational and portfolio purposes. The dataset used is AI generated solely for the purpose of educational use.
+For security purpose I have added screenshots of my Power BI dashboard, Excel Pivot table and Charts along with the output of data analysis
+using Python.
 
 ## Author
 
