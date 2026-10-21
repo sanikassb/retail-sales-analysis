@@ -1,14 +1,14 @@
 # customer-sales-analysis
 Retail sales analysis using Python, Excel and Power BI
-# 🛍️ Sales Analysis
+# Sales Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes retail sales data to understand business performance, identify sales trends, and evaluate product and regional profitability.
 
 The project uses **Python, Pandas, NumPy, Microsoft Excel, and Power BI** to clean and analyze data, calculate key performance indicators (KPIs), and create visualizations that support data-driven business decisions.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Analyze overall sales, profit, and order volume.
 - Identify top-performing products and product categories.
@@ -17,7 +17,7 @@ The project uses **Python, Pandas, NumPy, Microsoft Excel, and Power BI** to cle
 - Evaluate sales channels and customer purchasing patterns.
 - Build an interactive Power BI dashboard for business reporting.
 
-## 🐍 Python Environment — Anaconda
+## Python Environment — Anaconda
 
 This project uses **Anaconda** to manage the Python environment and install the libraries required for data analysis. It provides a convenient way to work with Python packages such as Pandas, NumPy, Matplotlib, and OpenPyXL.
 
@@ -29,7 +29,7 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 - Matplotlib — data visualization
 - OpenPyXL — Excel file handling
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -41,10 +41,10 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 | Power BI | Interactive dashboards and business reporting |
 | Git & GitHub | Version control and project documentation |
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
-customer-sales-analysis/
+retail-sales-analysis/
 │
 ├── data/
 │   ├── sales_dataset_raw.csv
@@ -60,11 +60,10 @@ customer-sales-analysis/
 │   ├── sales_data.pbix
 │   └── sales_data_screenshot.png
 │
-├── requirements.txt
 └── README.md
 ```
 
-## 🔍 Project Workflow
+## Project Workflow
 
 ### 1. Data Loading and Inspection
 - Imported the retail sales dataset using Pandas.
@@ -99,7 +98,7 @@ The interactive dashboard is designed to include:
 - Sales and profit comparisons by region.
 - Sales distribution by category.
 
-## 💡 Key Findings
+## Key Findings
 
 This section will summarize the main insights identified during the analysis.
 
@@ -116,7 +115,7 @@ Examples of questions explored:
 - Microsoft Excel (optional, for Excel analysis)
 - Power BI Desktop (for the interactive dashboard)
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 - Data cleaning and preprocessing
 - Data aggregation and KPI calculation
@@ -125,11 +124,11 @@ Examples of questions explored:
 - Power BI dashboard development
 - Project documentation and version control
 
-## ⚠️ Data Disclaimer
+## Data Disclaimer
 
 This project is intended for educational and portfolio purposes. The dataset used is AI generated solely for the purpose of educational use.
 
-## 👤 Author
+## Author
 
 Sanika
 
