@@ -29,6 +29,23 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 - Matplotlib — data visualization
 - OpenPyXL — Excel file handling
 
+## Version Control
+
+Git was used for version control and project management throughout the development of this project. SourceTree was used as a graphical Git client to manage the repository, track changes, create commits, and push updates to GitHub.
+
+### Git & SourceTree Workflow
+
+- Created and maintained the project repository using Git
+- Used SourceTree to stage and review changes
+- Created meaningful Git commits to track project development
+- Used GitHub as the remote repository
+- Used `.gitignore` to exclude unnecessary files and local development files
+- Maintained project files, Python scripts, datasets, and documentation under version control
+
+The project follows a simple workflow:
+
+**Develop → Review Changes → Stage → Commit → Push to GitHub**
+
 ## Tools & Technologies
 
 | Tool | Purpose |
@@ -39,7 +56,7 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 | Matplotlib | Data visualization |
 | Microsoft Excel | Spreadsheet analysis and PivotTables |
 | Power BI | Interactive dashboards and business reporting |
-| Git & GitHub | Version control and project documentation |
+| Git GitHub & Sourcetree | Version control and project documentation |
 
 ## Project Structure
 
@@ -47,19 +64,17 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 retail-sales-analysis/
 │
 ├── data/
-│   ├── please contact me for the raw sales data csv
+│   ├── sales_dataset_raw.csv
+│   └── sales_cleaned.csv
 │
 ├── python/
 │   └── data_analysis.ipynb
-|   └── data_analysis_output
-|   └── output.png
 │
 ├── excel/
-│   └── Pivot table and Pivot chart for monthly sales.png
-|   └── Pivot table and Pivot chart for product performance.png
-|   └── Pivot table and Pivot chart for regional performance with slicers.png
+│   └── sales_analysis.xlsx
 │
 ├── powerbi/
+│   ├── sales_data.pbix
 │   └── sales_data_screenshot.png
 │
 └── README.md
@@ -128,9 +143,7 @@ Examples of questions explored:
 
 ## Data Disclaimer
 
-This project is intended for educational and portfolio purposes. The dataset used is AI generated solely for the purpose of educational use.
-For security purpose I have added screenshots of my Power BI dashboard, Excel Pivot table and Charts along with the output of data analysis
-using Python.
+This project is intended for educational and portfolio purposes. The dataset used is AI generated solely for the purpose of educational use. I have added screenshots of excel pivot tables and charts, Power BI dashboards along with data analysis with python output. 
 
 ## Author
 
