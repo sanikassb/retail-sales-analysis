@@ -1,0 +1,51 @@
+Dataset shape: (5000, 24)
+Duplicate rows: 0
+Total missing values: 0
+
+Data types:
+Order_ID                     str
+Order_Date        datetime64[us]
+Customer_ID                  str
+Customer_Type                str
+Region                       str
+City                         str
+Sales_Channel                str
+Product_ID                   str
+Product                      str
+Category                     str
+Quantity                   int64
+Unit_Price               float64
+Discount                 float64
+Sales                    float64
+Product_Cost             float64
+Shipping_Cost            float64
+Profit                   float64
+Payment_Method               str
+Order_Status                 str
+Delivery_Days              int64
+Year                       int32
+Month                      int32
+Month Name                   str
+Profit Margin            float64
+dtype: object
+
+Numerical summary:
+          Quantity   Unit_Price     Discount        Sales  Product_Cost  \
+count  5000.000000  5000.000000  5000.000000  5000.000000   5000.000000   
+mean      2.549200   281.061662     0.063850   675.483664    467.381168   
+std       1.478248   279.650508     0.059853   872.852288    638.540074   
+min       1.000000    16.360000     0.000000    13.940000      7.280000   
+25%       1.000000    71.285000     0.000000   136.320000     77.675000   
+50%       2.000000   196.080000     0.050000   353.715000    216.435000   
+75%       3.000000   383.037500     0.100000   816.942500    548.472500   
+max       6.000000  1070.490000     0.200000  5872.560000   4244.940000   
+
+       Shipping_Cost       Profit  
+count    5000.000000  5000.000000  
+mean       20.580726   187.521770  
+std         9.547133   249.842231  
+min         4.000000   -35.430000  
+25%        12.407500    35.080000  
+50%        20.520000    97.970000  
+75%        28.482500   238.715000  
+max        42.000000  2063.480000  

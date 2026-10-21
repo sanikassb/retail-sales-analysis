@@ -29,6 +29,23 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 - Matplotlib — data visualization
 - OpenPyXL — Excel file handling
 
+## Version Control
+
+Git was used for version control and project management throughout the development of this project. SourceTree was used as a graphical Git client to manage the repository, track changes, create commits, and push updates to GitHub.
+
+### Git & SourceTree Workflow
+
+- Created and maintained the project repository using Git
+- Used SourceTree to stage and review changes
+- Created meaningful Git commits to track project development
+- Used GitHub as the remote repository
+- Used `.gitignore` to exclude unnecessary files and local development files
+- Maintained project files, Python scripts, datasets, and documentation under version control
+
+The project follows a simple workflow:
+
+**Develop → Review Changes → Stage → Commit → Push to GitHub**
+
 ## Tools & Technologies
 
 | Tool | Purpose |
@@ -39,7 +56,7 @@ Anaconda helps maintain a consistent development environment and simplifies depe
 | Matplotlib | Data visualization |
 | Microsoft Excel | Spreadsheet analysis and PivotTables |
 | Power BI | Interactive dashboards and business reporting |
-| Git & GitHub | Version control and project documentation |
+| Git GitHub & Sourcetree | Version control and project documentation |
 
 ## Project Structure
 
