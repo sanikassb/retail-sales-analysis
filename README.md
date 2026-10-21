@@ -64,17 +64,19 @@ The project follows a simple workflow:
 retail-sales-analysis/
 │
 ├── data/
-│   ├── sales_dataset_raw.csv
-│   └── sales_cleaned.csv
+│   ├── please contact me for the raw sales data csv
 │
 ├── python/
 │   └── data_analysis.ipynb
+|   └── data_analysis_output
+|   └── output.png
 │
 ├── excel/
-│   └── sales_analysis.xlsx
+│   └── Pivot table and Pivot chart for monthly sales.png
+|   └── Pivot table and Pivot chart for product performance.png
+|   └── Pivot table and Pivot chart for regional performance with slicers.png
 │
 ├── powerbi/
-│   ├── sales_data.pbix
 │   └── sales_data_screenshot.png
 │
 └── README.md
